@@ -38,4 +38,4 @@ on [https://blog.mikail-khan.com](https://blog.mikail-khan.com). Manually transl
 post really put into perspective how much writing I've done. Apparently there was a hugo
 import command the whole time.
 
-Amusingly I had a post from May 13, 2020 about moving to Jekyll.
+I had a post from May 13, 2020 about moving to Jekyll. I guess 584 days is the time to beat for Hugo.
