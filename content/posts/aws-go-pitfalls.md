@@ -21,12 +21,6 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
 ---
 
 I've recently been writing a Go server for my my website at [mikail-khan.com](https://mikail-khan.com). I've never used Go, and I've never deployed a server to a domain with https using essentially just a Linux server. Here are a few steps I had difficulty with:

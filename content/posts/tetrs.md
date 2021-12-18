@@ -21,12 +21,6 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
 ---
 
 I wrote tetrs (<https://github.com/mkhan45/tetrs>) over the summer after playing Tetris with some friends on <https://jstris.jezevec10.com/>. One of my goals when writing it was for it to be written mostly using functional programming. I did complete the actual Tetris part back then, but the UI was pretty bad so I never really used it. I finally got around to finishing it a few weeks ago because of coronabreak.

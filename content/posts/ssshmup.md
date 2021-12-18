@@ -21,12 +21,6 @@ searchHidden: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
 ---
 
 A few weeks ago I wrote a super small shoot 'em up. I started because some friends of mine were making a similar shoot 'em up in Unity, and given that they actually have good artists, they had some nice assets. I didn't want to work with them on it but I decided that I'd take the chance to make my own, much smaller take on it. I called it ssshmup.
