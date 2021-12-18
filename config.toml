@@ -1,0 +1,5 @@
+baseURL = "https://blog.mikail-khan.com/"
+languageCode = "en-us"
+title = "Mikail Khan"
+
+theme = "hugo-PaperMod"
