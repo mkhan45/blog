@@ -149,6 +149,7 @@ ___
 
 If you want to read more, sign up for my newsletter:
 
+{{< rawhtml >}}
 <form style="margin: auto" method="post" action="https://listmonk.mikail-khan.com/subscription/form" class="listmonk-form">
     <div>
         <p><input type="text" name="email" placeholder="E-mail" />
@@ -160,6 +161,7 @@ If you want to read more, sign up for my newsletter:
         <p><input type="submit" value="Subscribe" /></p>
     </div>
 </form>
+{{< /rawhtml >}}
 ___
 
 &nbsp;
