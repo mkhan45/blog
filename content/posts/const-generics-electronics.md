@@ -1,5 +1,5 @@
 ---
-title: "Using Const Generics to Model and Electronics Graph"
+title: "Using Const Generics to Model an Electronics Graph"
 date: 2021-03-28
 # weight: 1
 # aliases: ["/first"]
