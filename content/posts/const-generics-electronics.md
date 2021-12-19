@@ -3,7 +3,7 @@ title: "Using Const Generics to Model and Electronics Graph"
 date: 2021-03-28
 # weight: 1
 # aliases: ["/first"]
-tags: ["rust", "gamedev"]
+tags: ["rust", "gamedev", "data-structures"]
 author: "Mikail Khan"
 # author: ["Me", "You"] # multiple authors
 showToc: true

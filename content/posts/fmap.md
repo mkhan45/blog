@@ -3,7 +3,7 @@ title: "Representing Data Structures with First Class Functions"
 date: 2021-10-11
 # weight: 1
 # aliases: ["/first"]
-tags: ["functional-programming"]
+tags: ["functional-programming", "data-structures"]
 author: "Mikail Khan"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -36,7 +36,7 @@ domain to their range.
 
 Here's a simple map as a function:
 
-```
+```plain
 map = {'a': 1, 'b': 2, 'c': 3}
 f('a') = 1
 f('b') = 2

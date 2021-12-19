@@ -3,7 +3,7 @@ title: "Modeling ASTs in Different Languages"
 date: 2021-05-10
 # weight: 1
 # aliases: ["/first"]
-tags: ["programming-languages"]
+tags: ["programming-languages", "data-structures"]
 author: "Mikail Khan"
 # author: ["Me", "You"] # multiple authors
 showToc: true
