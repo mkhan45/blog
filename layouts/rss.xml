@@ -15,7 +15,7 @@
   <channel>
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
-    <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+    <description>Blog posts about code with a focus on Programming Languages and Functional Programming</description>
     {{- with $.Site.Params.images }}
     <image>
       <url>{{ index . 0 | absURL }}</url>
