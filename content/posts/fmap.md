@@ -38,6 +38,8 @@ Here's a simple map as a function:
 
 ```plain
 map = {'a': 1, 'b': 2, 'c': 3}
+
+# Representing the map as a function f:
 f('a') = 1
 f('b') = 2
 f('c') = 3
@@ -123,10 +125,10 @@ Essentially, this is using the call stack to store data, which isn't
 uncommon in recursive algorithms though this is an extreme version of it. 
 You could have an "empty" map which takes up a lot of space using this method 
 if you just kept adding and removing the same element. This isn't completely a bad
-thing. It makes it what's known as a [persistent data structure](https://en.wikipedia.org/wiki/Persistent_data_structure);
-each version of a map is stored. This is very useful in functional languages where
-mutation isn't possible. For example, persistence is the main advantage of
-Jane Street's OCaml [`Base.Map`](https://ocaml.janestreet.com/ocaml-core/v0.13/doc/base/Base/Map/index.html)
+thing. It makes this map what's known as a [persistent data structure](https://en.wikipedia.org/wiki/Persistent_data_structure); each version of the map is stored without having to deep copy the data. 
+This is very useful in functional languages where mutation isn't possible. 
+For example, persistence is the main advantage of Jane Street's OCaml 
+[`Base.Map`](https://ocaml.janestreet.com/ocaml-core/v0.13/doc/base/Base/Map/index.html)
 over [Base.Hashtbl](https://ocaml.janestreet.com/ocaml-core/v0.12/doc/base/Base/Hashtbl/index.html).
 
 An interesting thought is that while the concept of the "call stack" is a
@@ -141,7 +143,7 @@ ___
 
 &nbsp;
 
-If you want to read more, sign up for my newsletter:
+If you liked this post, sign up for my newsletter:
 
 {{< rawhtml >}}
 <form style="margin: auto" method="post" action="https://listmonk.mikail-khan.com/subscription/form" class="listmonk-form">
